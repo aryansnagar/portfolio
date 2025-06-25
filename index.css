@@ -1,0 +1,96 @@
+:root {
+    --background: #010101;
+    --hover: #090909;
+    --border: #131313;
+    --text: #ffffff;
+    --faded-text: #d3d3d3;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 18px;
+    font-family: 'Synonym';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
+
+#con-intro {
+    margin: 60px auto 0px;
+    width: calc(100% - 40px);
+    max-width: 900px;
+    height: fit-content;
+}
+
+#con-intro h1 {
+    margin: 0px 0px 20px 0px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text);
+    font-family: 'Stardom';
+}
+
+#con-intro p {
+    width: fit-content;
+    height: fit-content;
+    font-weight: 400;
+    color: var(--faded-text);
+}
+
+#con-link {
+    margin: 60px auto 0px;
+    width: calc(100% - 40px);
+    max-width: 900px;
+    height: fit-content;
+    border: 1px solid var(--border);
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+ion-icon {
+    margin: 0px 20px 0px 0px;
+    font-size: 18px;
+}
+
+#con-link a {
+    margin: 0px 0px;
+    padding: 20px 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    text-decoration: none;
+    color: var(--faded-text);
+    border-bottom: 1px solid var(--border);
+    transition: all 0.3s ease-in-out;
+}
+
+#con-link a:hover {
+    background-color: var(--hover);
+    color: var(--text);
+    transition: all 0.3s ease-in-out;
+    padding: 20px 30px;
+    width: calc(100% - 60px);
+}
+
+footer {
+    margin: 0px auto;
+    padding: 70px 0px 100px 0px;
+    width: calc(100% - 40px);
+    max-width: 900px;
+    height: fit-content;
+}
+
+footer p {
+    font-family: 'JetBrains Mono';
+    color: #353535;
+}

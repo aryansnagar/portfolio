@@ -1,9 +1,9 @@
 :root {
     --background-primary: #010101;
-    --background-secondary: #090909;
-    --text-primary: #ffffff;
-    --text-secondary: #d3d3d3;
-    --border: #131313;
+    --background-secondary: #090a11;
+    --text-primary: #91a4f0;
+    --text-secondary: #bebebe;
+    --border: #151515;
 }
 
 * {
@@ -33,7 +33,7 @@ body {
 }
 
 .container-heading {
-    margin: 40px auto 40px;
+    margin: 60px auto 60px;
     width: calc(100% - 40px);
     max-width: 900px;
     height: fit-content;
@@ -98,7 +98,7 @@ body {
 
 footer {
     margin: 0px auto;
-    padding: 80px 0px 40px 0px;
+    padding: 80px 0px 60px 0px;
     width: calc(100% - 40px);
     max-width: 900px;
     height: fit-content;
@@ -108,7 +108,3 @@ footer p {
     font-family: "JetBrains Mono";
     color: #353535;
 }
-
-
-
-

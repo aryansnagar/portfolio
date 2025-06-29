@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Megrim&display=swap');
+
 :root {
     --body-background: #010101;
     --border: #131313;
@@ -8,7 +10,7 @@
 }
 
 * {
-    font-family: 'Synonym';
+    font-family: "Fira Sans";
     margin: 0px 0px;
     padding: 0px 0px;
     font-size: 18px;
@@ -58,7 +60,7 @@ body {
 #heading_container h1 {
     width: fit-content;
     height: fit-content;
-    font-family: 'Stardom';
+    font-family: "Megrim";
     font-size: 2rem;
     font-weight: 600;
     color: var(--headings);

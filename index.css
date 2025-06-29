@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Megrim&display=swap');
-
 :root {
-    --background: #010101;
-    --hover: #090909;
+    --background-primary: #010101;
+    --background-secondary: #090909;
+    --text-primary: #ffffff;
+    --text-secondary: #d3d3d3;
     --border: #131313;
-    --text: #ffffff;
-    --faded-text: #d3d3d3;
 }
 
 * {
     margin: 0px 0px;
     padding: 0px 0px;
     font-size: 18px;
-    font-family: "Fira Sans";
-    font-weight: 300;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.material-symbols-outlined {
+    margin: 0px 20px 0px 0px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 html {
@@ -21,34 +28,45 @@ html {
 }
 
 body {
-    background-color: var(--background);
+    padding: 60px 0px 60px 0px;
+    background-color: var(--background-primary);
 }
 
-#con-intro {
-    margin: 60px auto 0px;
+.container-heading {
+    margin: 20px auto 20px;
     width: calc(100% - 40px);
     max-width: 900px;
     height: fit-content;
 }
 
-#con-intro h1 {
+.container-heading h1 {
     margin: 0px 0px 20px 0px;
     width: fit-content;
     height: fit-content;
     font-size: 2rem;
     font-weight: 600;
-    color: var(--text);
-    font-family: "Megrim";
+    color: var(--text-primary);
 }
 
-#con-intro p {
+.container-heading h2 {
+    margin: 0px 0px 20px 0px;
     width: fit-content;
     height: fit-content;
-    font-weight: 400;
-    color: var(--faded-text);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-primary);
 }
 
-#con-link {
+.container-heading p {
+    width: fit-content;
+    height: fit-content;
+    color: var(--text-secondary);
+}
+
+
+/* ============================== */
+
+#container-address {
     margin: 60px auto 0px;
     width: calc(100% - 40px);
     max-width: 900px;
@@ -61,12 +79,8 @@ body {
     justify-content: start;
 }
 
-ion-icon {
-    margin: 0px 20px 0px 0px;
-    font-size: 18px;
-}
 
-#con-link a {
+#container-address a {
     margin: 0px 0px;
     padding: 20px 20px;
     width: calc(100% - 40px);
@@ -75,6 +89,8 @@ ion-icon {
     color: var(--faded-text);
     border-bottom: 1px solid var(--border);
     transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
 }
 
 #con-link a:hover {
@@ -146,3 +162,13 @@ footer p {
     font-family: 'JetBrains Mono';
     color: #353535;
 }
+
+
+
+
+
+
+
+
+
+

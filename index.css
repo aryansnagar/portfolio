@@ -15,7 +15,7 @@
 }
 
 .material-symbols-outlined {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
     font-variation-settings:
         'FILL' 0,
         'wght' 200,
@@ -125,4 +125,38 @@ footer p {
     padding: 10px 30px;
     background-color: var(--background-secondary);
     transition: all 0.3s ease;
+}
+
+
+#container-social-media-links {
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: calc(100% - 40px);
+    max-width: 940px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container-social-media-links a {
+    margin: 0px 20px;
+    padding: 10px 0px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--text-secondary);
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#container-social-media-links a:hover {
+    margin: 0px 0px;
+    padding: 10px 20px;
+    background-color: var(--background-secondary);
+    transition: all 0.3s ease-in-out;
 }

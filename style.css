@@ -78,7 +78,7 @@ body {
 }
 
 #intro-data-container h1 {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
     width: fit-content;
     height: fit-content;
     font-size: 2rem;
@@ -141,4 +141,28 @@ footer {
 
 footer p {
     font-family: "JetBrains Mono";
+}
+
+
+@media (max-width: 600px) {
+
+    #parent-container-one,
+    #parent-container-two {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #intro-data-container {
+        margin: 40px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p {
+        margin: 0px auto;
+    }
 }

@@ -53,7 +53,7 @@ body {
     background-color: var(--background);
 }
 
-#c1l0 {
+#parent-container-one {
     margin: 80px auto 0px;
     width: calc(100%);
     height: fit-content;
@@ -62,25 +62,25 @@ body {
     justify-content: start;
 }
 
-#c1l1p1 {
+#image-container {
     width: fit-content;
     height: fit-content;
 }
 
-#c1l1p1 img {
+#image-container img {
     width: 160px;
     height: 160px;
     object-fit: cover;
     border-radius: 80px;
 }
 
-#c1l1p2 {
+#intro-data-container {
     margin: 0px 0px 0px 40px;
     width: fit-content;
     height: fit-content;
 }
 
-#c1l1p2 h1 {
+#intro-data-container h1 {
     margin: 0px 0px 20px 0px;
     width: fit-content;
     height: fit-content;
@@ -89,11 +89,11 @@ body {
     color: var(--text-primary);
 }
 
-#c1l1p2 p {
+#intro-data-container p {
     margin: 0px 0px 20px 0px;
 }
 
-#c2l0 {
+#parent-container-two {
     margin: 80px 0px 0px 0px;
     width: calc(100%);
     height: fit-content;
@@ -102,16 +102,16 @@ body {
     gap: 10px;
 }
 
-#c2l0 div {
+#parent-container-two  div {
     min-height: 160px;
 }
 
-#c2l0 div p {
+#parent-container-two  div p {
     margin: 20px 0px 0px 0px;
     max-width: 250px;
 }
 
-#c2l0 button {
+#parent-container-two  button {
     margin: 2px 2px 2px 0px;
     padding: 8px 8px 8px 16px;
     width: fit-content;
@@ -129,7 +129,7 @@ body {
     transition: 0.3s all ease;
 }
 
-#c2l0 button:hover {
+#parent-container-two  button:hover {
     margin: 0px 0px;
     padding: 10px 10px 10px 16px;
     transition: 0.3s all ease;
